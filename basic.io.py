@@ -52,8 +52,8 @@ print("Hello %s %s. You are %.2f years old." % (first, last, floatage))
 
 #The split function can be used to get multiple values from standard in.
 # If a separatir isn't given to the function, then a white space is used.
-fname, lname = input("Enter your first  and last names separated by a space:").split()
-print(fname,lname, )
+fname, lname = input("Enter your first and last names separated by a space:").split()
+print(fname,lname )
 
 #A separator, like a comma, may be provided.
 fname, lname, tn = input("Enter your first  and last names and telephone separated by a comma:").split(",")
