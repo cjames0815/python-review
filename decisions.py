@@ -101,6 +101,22 @@ match grade:
     case _:
         print('Invalid grade.')
 
+#Rewriting match case 
+grade = 'A'
+
+if grade == 'A':
+    print("Super Work!")
+elif grade == 'B':
+    print("Good Job!")
+elif grade == 'C':
+    print("You made it.")
+elif grade == 'D' or grade == 'F':
+    print("Oh dear...")
+else:
+    print("Invalid grade")
+
+
+
 #Python supports the ternary operator.
 result = 'x is equal to 5 is true.' if (x == 5) else'x is equal to 5 is false'
 print(result)
@@ -138,3 +154,9 @@ if(not foundIt):
     print('foundit is False.')
 else:
     print('foundIt is True.')
+
+
+
+
+
+    

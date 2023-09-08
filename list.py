@@ -39,6 +39,15 @@ while (i < len(nums)):
     i = i + 1
 print()
 
+
+#Numbers less than 6
+i = 0
+while (i < len(nums)):
+    print(nums[i] < 6, end=" ")
+    i = i + 1
+print()
+
+
 #Python has inbuilt functions that may be used to manipulate lists.
 
 #The append functions may be used to add one element at a time to a list

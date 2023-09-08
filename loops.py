@@ -72,3 +72,13 @@ while (i > 0):
     #the loop will repeat infinitely
     i = i - 1
 print("blastoff!")
+
+
+#Odd number 1 -10
+i = 9
+while i > 0:
+    if i % 2 != 0:  # Check if i is odd
+        print(i, end=" ")
+    i = i - 1
+
+print("blastoff!")
